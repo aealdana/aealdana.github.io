@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_69e0968e293a335653dd2e6ae36419cf {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_69e0968e293a335653dd2e6ae36419cf" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_69e0968e293a335653dd2e6ae36419cf = L.map(
+                "map_69e0968e293a335653dd2e6ae36419cf",
+                {
+                    center: [13.7, -88.9],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_51228196e3b11e15f59696f8d80948e5 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_69e0968e293a335653dd2e6ae36419cf);
+        
+    
+            var marker_ffcccfda49f1631afc19046805bedf95 = L.marker(
+                [13.6929, -89.2182],
+                {}
+            ).addTo(map_69e0968e293a335653dd2e6ae36419cf);
+        
+    
+            var icon_0124e7b2f1eb83e67e51af0ddd0caca7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ffcccfda49f1631afc19046805bedf95.setIcon(icon_0124e7b2f1eb83e67e51af0ddd0caca7);
+        
+    
+        var popup_8d3dff2ebe30a5fc7faf058fbd19dd5e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a26c6f749efc8cd5932d8276001125d6 = $(`<div id="html_a26c6f749efc8cd5932d8276001125d6" style="width: 100.0%; height: 100.0%;"><b>Hospital Nacional de San Salvador</b><br>Tipo: Hospital<br>Nivel: Especializado</div>`)[0];
+            popup_8d3dff2ebe30a5fc7faf058fbd19dd5e.setContent(html_a26c6f749efc8cd5932d8276001125d6);
+        
+
+        marker_ffcccfda49f1631afc19046805bedf95.bindPopup(popup_8d3dff2ebe30a5fc7faf058fbd19dd5e)
+        ;
+
+        
+    
+    
+            marker_ffcccfda49f1631afc19046805bedf95.bindTooltip(
+                `<div>
+                     Hospital Nacional de San Salvador
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_417b5aba270eebfa3caff2e58970e8ef = L.marker(
+                [13.9942, -89.5598],
+                {}
+            ).addTo(map_69e0968e293a335653dd2e6ae36419cf);
+        
+    
+            var icon_cf5af648366d3ee1c4cb24180fa8e25b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_417b5aba270eebfa3caff2e58970e8ef.setIcon(icon_cf5af648366d3ee1c4cb24180fa8e25b);
+        
+    
+        var popup_968c25e728ce2b01f2cabc876581e6be = L.popup({"maxWidth": "100%"});
+
+        
+            var html_afdc4d3effd6653af441616b395043be = $(`<div id="html_afdc4d3effd6653af441616b395043be" style="width: 100.0%; height: 100.0%;"><b>Clínica Psicológica Santa Ana</b><br>Tipo: Clínica<br>Nivel: Secundario</div>`)[0];
+            popup_968c25e728ce2b01f2cabc876581e6be.setContent(html_afdc4d3effd6653af441616b395043be);
+        
+
+        marker_417b5aba270eebfa3caff2e58970e8ef.bindPopup(popup_968c25e728ce2b01f2cabc876581e6be)
+        ;
+
+        
+    
+    
+            marker_417b5aba270eebfa3caff2e58970e8ef.bindTooltip(
+                `<div>
+                     Clínica Psicológica Santa Ana
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a9b110a5df42dfdd8976df6c8bb671bf = L.marker(
+                [13.4833, -88.1833],
+                {}
+            ).addTo(map_69e0968e293a335653dd2e6ae36419cf);
+        
+    
+            var icon_428c6018d97f5130559c7f388f7df55b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a9b110a5df42dfdd8976df6c8bb671bf.setIcon(icon_428c6018d97f5130559c7f388f7df55b);
+        
+    
+        var popup_99911a17517f25e4975a5dfe5f9c3cd4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ebc9dca81def77abac19698ad00ebe70 = $(`<div id="html_ebc9dca81def77abac19698ad00ebe70" style="width: 100.0%; height: 100.0%;"><b>Centro de Atención Psicosocial San Miguel</b><br>Tipo: Centro Comunitario<br>Nivel: Primario</div>`)[0];
+            popup_99911a17517f25e4975a5dfe5f9c3cd4.setContent(html_ebc9dca81def77abac19698ad00ebe70);
+        
+
+        marker_a9b110a5df42dfdd8976df6c8bb671bf.bindPopup(popup_99911a17517f25e4975a5dfe5f9c3cd4)
+        ;
+
+        
+    
+    
+            marker_a9b110a5df42dfdd8976df6c8bb671bf.bindTooltip(
+                `<div>
+                     Centro de Atención Psicosocial San Miguel
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_203dcea4153bba3d958ae0e70db8e43d = L.marker(
+                [14.0333, -88.9333],
+                {}
+            ).addTo(map_69e0968e293a335653dd2e6ae36419cf);
+        
+    
+            var icon_977d504979d21bea4746f0b6d8ab3d49 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_203dcea4153bba3d958ae0e70db8e43d.setIcon(icon_977d504979d21bea4746f0b6d8ab3d49);
+        
+    
+        var popup_6d7bf3abb15deee755b1e8a22ba7adf5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3ca0418a257a6e318b00d416c7a32659 = $(`<div id="html_3ca0418a257a6e318b00d416c7a32659" style="width: 100.0%; height: 100.0%;"><b>ONG Apoyo Juvenil Chalatenango</b><br>Tipo: ONG<br>Nivel: Primario</div>`)[0];
+            popup_6d7bf3abb15deee755b1e8a22ba7adf5.setContent(html_3ca0418a257a6e318b00d416c7a32659);
+        
+
+        marker_203dcea4153bba3d958ae0e70db8e43d.bindPopup(popup_6d7bf3abb15deee755b1e8a22ba7adf5)
+        ;
+
+        
+    
+    
+            marker_203dcea4153bba3d958ae0e70db8e43d.bindTooltip(
+                `<div>
+                     ONG Apoyo Juvenil Chalatenango
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_58d30e20f76bfd61db8ee8ae99d7413a = L.marker(
+                [13.7167, -89.7167],
+                {}
+            ).addTo(map_69e0968e293a335653dd2e6ae36419cf);
+        
+    
+            var icon_26b634eeabeb4079db480b4f1233eb62 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_58d30e20f76bfd61db8ee8ae99d7413a.setIcon(icon_26b634eeabeb4079db480b4f1233eb62);
+        
+    
+        var popup_b0fa9c561b8fc7417d5204050b94ed1d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cf0d772ad64816bf2c8d3aef863ac4da = $(`<div id="html_cf0d772ad64816bf2c8d3aef863ac4da" style="width: 100.0%; height: 100.0%;"><b>Unidad de Salud Sonsonate</b><br>Tipo: Unidad de Salud<br>Nivel: Primario</div>`)[0];
+            popup_b0fa9c561b8fc7417d5204050b94ed1d.setContent(html_cf0d772ad64816bf2c8d3aef863ac4da);
+        
+
+        marker_58d30e20f76bfd61db8ee8ae99d7413a.bindPopup(popup_b0fa9c561b8fc7417d5204050b94ed1d)
+        ;
+
+        
+    
+    
+            marker_58d30e20f76bfd61db8ee8ae99d7413a.bindTooltip(
+                `<div>
+                     Unidad de Salud Sonsonate
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
